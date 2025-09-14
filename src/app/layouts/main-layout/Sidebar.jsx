@@ -28,7 +28,7 @@ class Sidebar extends Component {
       <div
         className="sidebar"
         style={{
-          width: this.props.isOpen ? "220px" : "0",
+          width: this.props.isOpen ? "250px" : "0",
           transition: "width 0.3s",
         }}
       >
