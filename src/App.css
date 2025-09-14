@@ -73,6 +73,30 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.login_btn {
+  display: inline-block; 
+  text-align: center;
+  width: 100%;
+  color: #fff;                 
+  background-color: #333;      
+  padding: 10px 20px;          
+  border: none;                
+  border-radius: 5px;          
+  font-size: 16px;             
+  cursor: pointer;             
+  transition: background 0.3s, transform 0.2s; 
+}
+
+.login_btn:hover {
+  background-color: #555;      
+  transform: scale(1.05);      
+}
+
+.login_btn:active {
+  background-color: #111;     
+}
+
+
 /* Header */
 .header {
   display: flex;
